@@ -40,7 +40,7 @@
         "viewsWelcome": [
             {
                 "view": "explorer",
-                "contents": "Open an Anura Folder\n[Open anura folder](command:extension.remote.webdav.open)",
+                "contents": "Open a Terbium Folder\n[Open terbium folder](command:extension.remote.webdav.open)",
                 "when": "workspaceFolderCount == 0"
             }
         ]

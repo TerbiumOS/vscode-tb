@@ -61,12 +61,12 @@ const productData = `{
 }
 `
     try {
-      const fileData = await top.anura.fs.promises.readFile("/" + location.pathname.split("/").slice(2,-1).join("/") + "/product.json", productData);
+      const fileData = await top.tb.fs.promises.readFile("/" + location.pathname.split("/").slice(2,-1).join("/") + "/product.json", productData);
       if (new TextDecoder().decode(fileData) !== productData) {
         throw new Error("Product data outdated")
       }
     } catch {
-      await top.anura.fs.promises.writeFile("/" + location.pathname.split("/").slice(2,-1).join("/") + "/product.json", productData)
+      await top.tb.fs.promises.writeFile("/" + location.pathname.split("/").slice(2,-1).join("/") + "/product.json", productData)
       location.reload();
     }
   </script>

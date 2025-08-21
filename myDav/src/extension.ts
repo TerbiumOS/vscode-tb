@@ -37,6 +37,7 @@ export async function resetAuth() {
 }
 
 export async function openWebdav() {
+    // Using Anura file picker just because why not
     let uriValue = (await ((await fetch("/showFilePicker?type=folder")).json()))["folders"][0]
     
     if (!uriValue) {

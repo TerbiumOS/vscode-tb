@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: anura-package
-          path: vscode.app.zip
+          path: vscode.tapp.zip
 
   upload:
     name: Upload release
@@ -69,5 +69,5 @@ jobs:
           tag: latest
           commit: master
           body: "${{ github.event.head_commit.url }} ${{ github.event.head_commit.message }}"
-          artifacts: "vscode.app.zip"
+          artifacts: "vscode.tapp.zip"
           prerelease: true
