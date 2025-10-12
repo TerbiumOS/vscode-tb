@@ -20,19 +20,11 @@
   
   "additionalBuiltinExtensions": [
     {
-      "scheme": "http",
+      "scheme": "relative",
       "path": "/fs/apps/system/Visual Studio Code.tapp/myExt"
     },
     {
-      "scheme": "http",
-      "path": "/fs/apps/system/Visual Studio Code.tapp/myDav"
-    },
-    {
-      "scheme": "https",
-      "path": "/fs/apps/system/Visual Studio Code.tapp/myExt"
-    },
-    {
-      "scheme": "https",
+      "scheme": "relative",
       "path": "/fs/apps/system/Visual Studio Code.tapp/myDav"
     }
   ]
