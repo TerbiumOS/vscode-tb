@@ -50,12 +50,12 @@ const productData = `{
   
   "additionalBuiltinExtensions": [
     {
-      "scheme": "relative",
-      "path": "/fs/apps/system/Visual Studio Code.tapp/myExt"
+      "scheme": "${location.protocol.slice(0,-1)}",
+      "path": "${location.pathname.split("/").slice(0,-1).join("/")}/myExt"
     },
     {
-      "scheme": "relative",
-      "path": "/fs/apps/system/Visual Studio Code.tapp/myDav"
+      "scheme": "${location.protocol.slice(0,-1)}",
+      "path": "${location.pathname.split("/").slice(0,-1).join("/")}/myDav"
     }
   ]
 }
