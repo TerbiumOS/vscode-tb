@@ -1,7 +1,7 @@
 {
-  "name": "vscode-anura",
-  "version": "1.91.1",
-  "workspaces": ["./myDav", "./myExt"],
+  "name": "vscode-tb",
+  "version": "1.91.2",
+  "workspaces": ["./myDav"],
   "scripts": {
     "build": "cd myDav && pnpm build",
     "package": "bash package.sh",
