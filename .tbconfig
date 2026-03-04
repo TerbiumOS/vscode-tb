@@ -1,7 +1,7 @@
 {
     "title": "Visual Studio Code",
     "icon": "./node_modules/vscode-web/dist/code-192.png",
-    "version": "1.91.2",
+    "version": "1.91.3",
     "wmArgs": {
         "title": "Visual Studio Code",
         "icon": "./node_modules/vscode-web/dist/code-192.png",
@@ -15,4 +15,5 @@
         "snappable": true
     }
 }
+
   
